@@ -25,8 +25,8 @@ class TextColor:
     WHITE = "\033[37m"
 
 
-key = 
-secret = 
+key = ${{KEY}}
+secret = ${{SECRET}}
 
 exchange = ccxt.binance({
     'apiKey': key,

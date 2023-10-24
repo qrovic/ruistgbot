@@ -67,6 +67,7 @@ ticker_endpoint = "https://fapi.binance.com/fapi/v1/ticker/24hr"
 params = {
     'symbol': 'btcusdt',
 }
+INTERVAL=300
 average_price = 0.0
 prices = [] 
 next_average_time = time.time() + INTERVAL

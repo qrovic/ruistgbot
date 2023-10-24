@@ -10,8 +10,10 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 
 
-TOKEN = ${{secrets.TOKEN}}
-chatid =${{secrets.CHATID}}
+TOKEN = os.environ['TOKEN']
+chatid = os.environ['CHATID']
+key = os.environ['KEY']
+secret = os.environ['SECRET']
 
 class TextColor:
     RESET = "\033[0m"
@@ -25,8 +27,7 @@ class TextColor:
     WHITE = "\033[37m"
 
 
-key = ${{secrets.KEY}}
-secret = ${{secrets.SECRET}}
+
 
 exchange = ccxt.binance({
     'apiKey': key,

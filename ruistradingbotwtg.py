@@ -8,6 +8,7 @@ from binance.um_futures import UMFutures
 import ccxt
 import telegram
 from telegram.ext import Updater, CommandHandler
+import os
 
 
 TOKEN = os.environ['TOKEN']

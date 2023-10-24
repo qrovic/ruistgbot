@@ -10,8 +10,8 @@ import telegram
 from telegram.ext import Updater, CommandHandler
 
 
-TOKEN =
-chatid=
+TOKEN = ${{TOKEN}}
+chatid =${{CHATID}}
 
 class TextColor:
     RESET = "\033[0m"

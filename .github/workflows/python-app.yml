@@ -36,5 +36,5 @@ jobs:
           KEY: ${{secrets.KEY}}
           SECRET: ${{secrets.SERET}}
       run: |
-        ls
-        ruistgbot.py
+        
+        pytest ruistgbot.py

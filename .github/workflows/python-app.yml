@@ -36,4 +36,4 @@ jobs:
           KEY: ${{secrets.KEY}}
           SECRET: ${{secrets.SERET}}
       run: |
-        ./ruistgbot.py
+        sudo ./ruistgbot.py

@@ -38,7 +38,7 @@ jobs:
   
     - name: Run
       env:
-          TOKEN: ${{secrets.TOKEN}},
+          TOKEN: ${{secrets.TOKEN}}
           CHATID: ${{secrets.CHATID}}
           KEY: ${{secrets.KEY}}
           SECRET: ${{secrets.SERET}}

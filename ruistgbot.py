@@ -24,8 +24,8 @@ def call_trade_bot(update, context):
     trade_bot_process.start()  
     
 def main():
-    bot = telegram.Bot(token='TOKEN')
-    updater = Updater(token='TOKEN', use_context=True)
+    bot = telegram.Bot(token=TOKEN)
+    updater = Updater(token=TOKEN, use_context=True)
     dispatcher = updater.dispatcher
 
     start_handler = CommandHandler('start', start)

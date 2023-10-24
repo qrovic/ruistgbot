@@ -13,11 +13,11 @@ def start(update, context):
 def run_trade_bot():
    
     
-
+    python_interpreter = '/usr/bin/python3.11'
     script_to_run = 'ruistradingbotwtg.py'
 
 
-    subprocess.run([python, script_to_run])
+    subprocess.run([python_interpreter, script_to_run])
     
 def call_trade_bot(update, context):
     trade_bot_process = multiprocessing.Process(target=run_trade_bot)

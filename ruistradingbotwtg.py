@@ -62,7 +62,6 @@ else:
     
 
 SOCKET = 'wss://fstream.binance.com/ws/btcusdt@trade'
-INTERVAL = 300
 total_volume = 0.0
 ticker_endpoint = "https://fapi.binance.com/fapi/v1/ticker/24hr"
 params = {

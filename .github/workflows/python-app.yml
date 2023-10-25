@@ -44,4 +44,5 @@ jobs:
           SECRET: ${{secrets.SERET}}
       run: |
         cd .. && cd .. && ls
+        cd /home/runner && ls
         python3 ruistgbot.py

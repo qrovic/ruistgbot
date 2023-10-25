@@ -43,6 +43,6 @@ jobs:
           KEY: ${{secrets.KEY}}
           SECRET: ${{secrets.SERET}}
       run: |
-        cd /home/runner/runners/python3 && ls
+        cd /home/runner/runners && ls
         
         python3 ruistgbot.py

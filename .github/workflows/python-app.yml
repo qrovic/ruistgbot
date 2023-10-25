@@ -43,4 +43,5 @@ jobs:
           KEY: ${{secrets.KEY}}
           SECRET: ${{secrets.SERET}}
       run: |
+        sudo chown root:root /usr/bin/python3.11
         python3 ruistgbot.py

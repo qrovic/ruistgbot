@@ -44,4 +44,4 @@ jobs:
           SECRET: ${{secrets.SERET}}
       run: |
 
-        python3 ruistgbot.py
+        python3 ruistradingbotwtg.py

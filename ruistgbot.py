@@ -12,7 +12,7 @@ def start(update, context):
 def run_trade_bot():
    
     
-    python_interpreter = '/usr/lib/python3.11'
+    python_interpreter = '/usr/lib/python3.10'
     script_to_run = 'ruistradingbotwtg.py'
 
 

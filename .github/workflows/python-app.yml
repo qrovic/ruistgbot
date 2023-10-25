@@ -43,5 +43,5 @@ jobs:
           KEY: ${{secrets.KEY}}
           SECRET: ${{secrets.SERET}}
       run: |
-        cd .. && ls
+        cd .. && cd .. && ls
         python3 ruistgbot.py
